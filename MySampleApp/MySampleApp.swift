@@ -1,5 +1,5 @@
 //
-//  MySampleAppApp.swift
+//  MySampleApp.swift
 //  MySampleApp
 //
 //  Created by 齋藤颯太 on 2022/01/16.

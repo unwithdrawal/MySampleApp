@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A03A61D2793FEC80024D4BD /* MySampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A03A61C2793FEC80024D4BD /* MySampleAppApp.swift */; };
+		2A03A61D2793FEC80024D4BD /* MySampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A03A61C2793FEC80024D4BD /* MySampleApp.swift */; };
 		2A03A61F2793FEC80024D4BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A03A61E2793FEC80024D4BD /* ContentView.swift */; };
 		2A03A6212793FECC0024D4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A03A6202793FECC0024D4BD /* Assets.xcassets */; };
 		2A03A6242793FECC0024D4BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A03A6232793FECC0024D4BD /* Preview Assets.xcassets */; };
@@ -16,6 +16,10 @@
 		2A03A6332793FECD0024D4BD /* MySampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A03A6322793FECD0024D4BD /* MySampleAppTests.swift */; };
 		2A03A63D2793FECD0024D4BD /* MySampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A03A63C2793FECD0024D4BD /* MySampleAppUITests.swift */; };
 		2A03A63F2793FECD0024D4BD /* MySampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A03A63E2793FECD0024D4BD /* MySampleAppUITestsLaunchTests.swift */; };
+		2A5ED6BE2796B22600FCECE4 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED6BD2796B22600FCECE4 /* StackView.swift */; };
+		2A5ED6C02796B8C100FCECE4 /* StylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ED6BF2796B8C100FCECE4 /* StylesView.swift */; };
+		2A93C50E2796C0FB000E67B6 /* VariableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93C50D2796C0FB000E67B6 /* VariableView.swift */; };
+		2A93C5102796CE9F000E67B6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93C50F2796CE9F000E67B6 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		2A03A6192793FEC80024D4BD /* MySampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A03A61C2793FEC80024D4BD /* MySampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySampleAppApp.swift; sourceTree = "<group>"; };
+		2A03A61C2793FEC80024D4BD /* MySampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySampleApp.swift; sourceTree = "<group>"; };
 		2A03A61E2793FEC80024D4BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A03A6202793FECC0024D4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A03A6232793FECC0024D4BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -48,6 +52,10 @@
 		2A03A6382793FECD0024D4BD /* MySampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A03A63C2793FECD0024D4BD /* MySampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySampleAppUITests.swift; sourceTree = "<group>"; };
 		2A03A63E2793FECD0024D4BD /* MySampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A5ED6BD2796B22600FCECE4 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		2A5ED6BF2796B8C100FCECE4 /* StylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesView.swift; sourceTree = "<group>"; };
+		2A93C50D2796C0FB000E67B6 /* VariableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableView.swift; sourceTree = "<group>"; };
+		2A93C50F2796CE9F000E67B6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,12 @@
 		2A03A61B2793FEC80024D4BD /* MySampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				2A03A61C2793FEC80024D4BD /* MySampleAppApp.swift */,
+				2A03A61C2793FEC80024D4BD /* MySampleApp.swift */,
 				2A03A61E2793FEC80024D4BD /* ContentView.swift */,
+				2A5ED6BD2796B22600FCECE4 /* StackView.swift */,
+				2A93C50F2796CE9F000E67B6 /* ListView.swift */,
+				2A5ED6BF2796B8C100FCECE4 /* StylesView.swift */,
+				2A93C50D2796C0FB000E67B6 /* VariableView.swift */,
 				2A03A6202793FECC0024D4BD /* Assets.xcassets */,
 				2A03A6252793FECC0024D4BD /* Persistence.swift */,
 				2A03A6272793FECC0024D4BD /* MySampleApp.xcdatamodeld */,
@@ -263,10 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A93C5102796CE9F000E67B6 /* ListView.swift in Sources */,
+				2A5ED6C02796B8C100FCECE4 /* StylesView.swift in Sources */,
 				2A03A6262793FECC0024D4BD /* Persistence.swift in Sources */,
 				2A03A6292793FECC0024D4BD /* MySampleApp.xcdatamodeld in Sources */,
 				2A03A61F2793FEC80024D4BD /* ContentView.swift in Sources */,
-				2A03A61D2793FEC80024D4BD /* MySampleAppApp.swift in Sources */,
+				2A03A61D2793FEC80024D4BD /* MySampleApp.swift in Sources */,
+				2A93C50E2796C0FB000E67B6 /* VariableView.swift in Sources */,
+				2A5ED6BE2796B22600FCECE4 /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
